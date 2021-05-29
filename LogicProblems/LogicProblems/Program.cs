@@ -18,7 +18,7 @@ namespace LogicProblems
             {
                 case 1:
                     Fibonacci fibonacci = new Fibonacci();
-                    fibonacci.Fibb(5);
+                    fibonacci.Fibb(9);
                     break;
                 case 2:
 
@@ -32,6 +32,9 @@ namespace LogicProblems
                 case 4:
                     Prime prime = new Prime();
                     prime.PrimeNumber();
+                    break;
+                default:
+                    Console.WriteLine("invalid choice");
                     break;
             }
            
